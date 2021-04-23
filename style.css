@@ -1,0 +1,151 @@
+/*importing the fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap");
+
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #f2f0ed;
+}
+
+a {
+  text-align: center;
+  color: black;
+}
+
+.grid img {
+  border: 3px rosybrown solid;
+  height: 200px;
+  border-radius: 40px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+/*title*/
+h1 {
+  font-family: "Cookie", cursive;
+  line-height: 0.1;
+}
+
+/*animal names*/
+h2 {
+  font-family: "Annie Use Your Telescope", cursive;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/*facts*/
+h3 {
+  font-family: "Open Sans Condensed", sans-serif;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+/*links*/
+h4 {
+  font-family: "Indie Flower", cursive;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: grey;
+  height: 90px;
+}
+
+.header img {
+  width: 190px;
+  height: 100%;
+}
+
+.home {
+  display: flex;
+  background: #cde7d3;
+  background-image: url("images/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  margin: 0px;
+  justify-content: flex-end;
+  border-bottom: 2px solid grey;
+}
+
+.home h1 {
+  color: #000;
+  font-size: 150px;
+  font-family: "Amatic SC", cursive;
+  margin-top: 300px;
+  margin-right: 280px;
+  padding: 0px;
+}
+
+.menu {
+  margin-right: 30px;
+  padding: 0px;
+  margin-top: 32px;
+  justify-content: center;
+}
+
+.menu a {
+  text-decoration: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding: 10px;
+  border: 1px solid #fff;
+}
+
+.introduction {
+  background-color: #cdd7df;
+  margin: 40px;
+  text-align: center;
+}
+
+.instruction {
+  padding: 40px;
+}
+
+.instruction h1 {
+  font-family: "Annie Use Your Telescope", cursive;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.instruction p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.grid {
+  background-color: #cdd7df;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 40px;
+}
+
+.item {
+  background-color: white;
+  width: 350px;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+.footer {
+  background-color: #f2f0ed;
+}
+
+.footer h1 {
+  font-size: 50px;
+  padding: 20px;
+  margin: 0px;
+}
